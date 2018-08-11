@@ -1,0 +1,19 @@
+
+.form-container {
+    padding: 30px;
+    background: $brand-color;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    opacity: 0.9;
+    h3 {
+        color: #fff;
+        
+    }
+    @include media-query($on-palm) {
+        border-radius: 0;
+        h3 {
+            font-size: 22px;
+        }
+    }
+    
+}

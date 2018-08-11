@@ -1,0 +1,40 @@
+<!-- Section -->
+    <section class="pt-100 pb-80" id="blogposts" style="">
+        <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                    <div class="heading-box">
+                        <h2>Recent Blog Posts</h2>
+                        <!-- <p class="sub-heading white">Hundreds of customers have rated as one of the best.</p> -->
+                    </div>
+           </div>
+            <div class="row rec-container">
+               
+                <a href="{{site.baseurl}}{{site.posts[0].url}}"><div class="col-md-4 rec-card">
+                   <div class="rec-img" style="background-image: url({{site.baseurl}}/images/blogs/{{site.posts[0].image}})"></div>
+                    <h4>{{site.posts[0].title}}</h4>
+                </div></a>
+                
+                
+                <a href="{{site.baseurl}}{{site.posts[1].url}}"><div class="col-md-4 rec-card">
+                       <div class="rec-img" style="background-image: url({{site.baseurl}}/images/blogs/{{site.posts[1].image}})"></div>
+                    <h4>{{site.posts[1].title}}</h4>
+                </div></a>
+                
+                <a href="{{site.baseurl}}{{site.posts[2].url}}"><div class="col-md-4 rec-card">
+                       <div class="rec-img" style="background-image: url({{site.baseurl}}/images/blogs/{{site.posts[2].image}})"></div>
+                    <h4>{{site.posts[2].title}}</h4>
+                </div></a>
+                
+                
+            </div>
+            <!-- <div class="row">
+                
+                <a href="{{site.baseurl}}{{site.posts[3].url}}"><div class="col-md-4 rec-card">
+                       <div class="rec-img" style="background-image: url({{site.baseurl}}/images/blogs/{{site.posts[3].image}})"></div>
+                    <h4>{{site.posts[3].title}}</h4>
+                </div></a>
+            </div> -->
+        </div>
+        </div>
+</section>

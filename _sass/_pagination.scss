@@ -1,0 +1,64 @@
+// Pagination
+   
+.pagination {
+        clear: both;
+        overflow: hidden;
+        font-family: "PT Sans", Helvetica, Arial, sans-serif;
+        color: #ccc;
+        text-align: center;
+        margin: 3rem auto;
+        width: 100%;
+        border: 1px solid #ddd;
+
+
+
+                .pagination-item {
+                    display: block;
+                    padding: 1rem 0;
+                    float: left;
+                    width: 50%;
+
+            /*         border-radius: 4px; */
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                   /*  border-radius: 4px; */
+
+
+
+                @include media-query($on-laptop) {
+                        clear: both;
+                        float: none;
+                        width: 100%;
+                    }
+
+                  }
+
+
+    
+                  .active-link {
+                    &:hover {
+                          background-color: $brand-color;
+                          color: #fff;
+                      }
+                }
+    
+    
+        
+                .newer {
+                    border-radius: 0 4px 4px 0;
+
+                        @include media-query($on-laptop) {
+                        margin-left: 0;
+                        }
+                }
+                
+    
+                .older {
+                    margin-bottom: 0;
+                    border-radius: 4px 0 0 4px;
+                    border-right: 1px solid #ddd;
+                }
+
+}
+ 

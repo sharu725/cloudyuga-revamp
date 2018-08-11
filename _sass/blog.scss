@@ -1,0 +1,137 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    /* padding-top: 70px;  *//* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+/*     height: 130px; */
+/*     word-wrap: break-word;
+    word-break: break-all; */
+    /* overflow: hidden; */
+    p {
+        font-size: 18px;
+    }
+    h4 {
+       font-size: 20px;
+       word-wrap: break-word;
+    }
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+
+.masonry-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    @extend .grid-mobile;
+    h4 {
+        font-weight: bold;
+    }
+    .item {
+        &:hover {
+                box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.03);
+        -webkit-box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.03);
+                transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+    }
+}
+
+.grid-mobile {
+    @include media-query($on-palm) {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+article {
+    img {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    li {
+        line-height: 1.8;
+    }
+}
+
+
+/* Responsive videos */
+.video {
+    width: 100%;
+    height: 515px;
+    @include media-query($on-palm) {
+        height: 250px;
+    }
+}
+
+.video-header {
+        width: 100%;
+        height: 360px;
+    @include media-query($on-palm) {
+        height: 250px;
+    }
+}
+
+.author-button {
+
+        text-align: center;
+        padding: 10px 0;
+        @include media-query($on-palm) {
+                        padding: 0px 0px 20px 0;
+        }
+        .btn {
+                padding: 10px 10px;
+                font-size: 14px;
+
+                @include media-query($on-palm) {
+                        width: 100%;
+                }
+          }
+}

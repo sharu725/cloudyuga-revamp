@@ -1,0 +1,52 @@
+.form {
+    
+    border: 1px solid #aaa;
+    display: inline-block;
+    margin: 1em auto;
+    width: 60%;
+    @include media-query($on-palm) {
+        width: 100%;
+    }
+
+    
+    ul {
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    li {
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+    input, textarea {
+        border:none;
+        border-bottom: 1px solid #eee;
+        transition-duration: 0.3s;
+        width: 100%;
+        &:focus {
+            outline:none;
+            border-bottom: 1px solid $brand-color;
+        }
+    }
+    
+
+    
+    label {
+    display: block;
+    }
+
+    .submit {
+        border:none;
+        background-color: $brand-color;
+        padding: 10px 15px;
+        color: #fff;
+        opacity: 0.8;
+        &:hover {
+            background-color: lighten($brand-color, 10%);
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+}

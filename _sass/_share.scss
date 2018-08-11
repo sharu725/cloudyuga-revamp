@@ -1,0 +1,63 @@
+.share-box {
+        position: relative;
+        display: grid;
+        left: 80%;
+        top: 50px;
+        .icon {
+            color: $color;
+            &:hover {
+                color: $brand-color;
+            }
+        }
+    
+        a {
+            margin-bottom: 0;
+        }
+        
+        i.icon.ion-ios-redo-outline, i.icon.ion-social-facebook-outline {
+            padding-left: 5px;
+        }
+        
+    
+        @include media-query($content-width) {
+            display: none;
+        }
+
+}
+
+.share-box, .share-buttons {
+    
+    opacity: 0.9;
+    
+    li {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    h3 {
+        line-height: 2;
+    }
+    span {
+        /* font-size: 20px; */
+    }
+    
+
+    .icon {
+        color: $color;
+        margin-right: 10px;
+        &:hover {
+            color: $brand-color;
+        }
+    }
+
+}
+
+.share-buttons {
+    color: $brand-color;
+    .icon {
+        color: $brand-color;
+        margin-right: 10px;
+        &:hover {
+            color: $color;
+        }
+    }
+}

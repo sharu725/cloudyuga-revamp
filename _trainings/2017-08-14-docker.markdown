@@ -1,0 +1,91 @@
+---
+layout: post
+title:  "Docker Workshop"
+description: This course covers basic and advance level of Docker. We will start looking to container fundamentals and then do a deep dive into Docker architecture, container and image operations. 
+date:   2017-08-14 10:51:47 +0530
+categories: Docker 
+image: docker.jpg 
+categories: classroom 
+color: BF360C
+author: Neependra
+#razor-pay:
+#      name: Neependra Khare
+#      text: Enroll - <strike>$50</strike> $39
+#      description: Sign up for Docker Workshop.
+#      amount: 39
+#      currency: USD
+# If the amount is in INR then enter the amount in paise, 20 Rs is 2000 paise.
+# If INR a minimum of 100 paise should be used.
+# If INR then change the text: from $ to ₹
+school:
+      text: Enquire
+---
+
+![]({{site.baseurl}}/images/trainings/docker.jpg)
+
+## **Overview** 
+
+This course covers basic and advance level of Docker. We will start looking to container fundamentals and then do a deep dive into Docker architecture, container and image operations. We will see how manage network and data with Docker. We’ll see how we can create multi container applications using Docker Compose.&nbsp; We will also Docker Swarm which is a container orchestrator for Docker and would deploy application using Docker Stack. At last we would cover Docker Security, Performance and monitoring aspect as well.&nbsp;
+
+**Date**: TBD 
+
+**Venue** : Bangalore
+
+
+### **About the Trainer - [Neependra Khare](https://twitter.com/neependra)** 
+- Founder and Principal Consultant at [CloudYuga](http://cloudyuga.guru/)
+- [Docker Captain](https://www.docker.com/community/docker-captains)
+- More than 13 years of IT experience  
+- Organiser of [Docker Meetup in Bangalore](https://www.meetup.com/Docker-Bangalore/) for about 4 years
+- Authored [Docker Cookbook](https://www.packtpub.com/virtualization-and-cloud/docker-cookbook) in 2015
+- Co-authored [Introduction to Cloud Infrastructure Technologies](https://www.edx.org/course/introduction-cloud-infrastructure-linuxfoundationx-lfs151-x) MOOC on Edx for the Linux Foundation in 2016
+- Pubished [online courses on Docker and other container technologies](http://school.cloudyuga.guru) in 2017
+- Authored [Introduction to Kubernetes](http://edx.org/course/introduction-kubernetes-linuxfoundationx-lfs158x) MOOC on Edx for the Linux Foundation in 2017
+
+### **Containers (Docker) Workshop** 
+
+
+  * Container Fundamentals
+      * What/Why/Where
+      * Container Vs VMs
+      * Container building blocks
+  * Container Runtimes 
+      * runC
+      * Docker
+      * Rkt
+  * Docker Architecture
+  * DockerHub/Docker Store
+  * Docker Installation
+  * Docker Machine
+  * Docker Container Operations
+  * Docker Image Operations
+  * Creating Images with Dockerfiles
+  * Docker Multi-stage builds
+  * Setting up Internal Docker Registry
+  * Data Management with Docker using Volumes
+  * Docker Networking Model
+  * Docker Networking Drivers 
+      * Bridge
+      * Host
+      * None
+      * Overlay
+      * MACVLan
+  * Docker APIs
+  * Building Multi-container Application with Docker Compose
+  * Overview of Container Orchestrators
+  * Docker Swarm
+      * Setup 2-3 nodes Docker Swarm cluster
+      * Deploying and scaling the application 
+      * Accessing the applications from external world 
+      * Managing secrets and configuration details 
+      * Docker Stack
+  * Docker Security
+  * Logging and Monitoring with Docker
+  * Docker use-cases 
+      * Dev
+      * QA
+      * Ops
+  * Docker Eco-system and Community
+
+
+

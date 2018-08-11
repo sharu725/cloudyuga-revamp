@@ -1,0 +1,88 @@
+title: CloudYuga
+description: We provide trainings in Docker, Kubernetes, Mesos Marathon, Container Security, GO Language, Advance Linux Administration etc. 
+url: "https://cloudyuga.guru"
+logo: "https://cloudyuga.guru/img/Cloud-Yuga-Guru-Logox60.png"
+
+facebook: "https://www.facebook.com/cloudyuga.guru"
+twitter: "https://twitter.com/cloudyuga"
+
+
+analytics: UA-102630530-1 
+disqus: cloudyuga
+
+
+permalink: "/blog/:title/"
+
+paginate: 9
+paginate_path: "/blog/all/page:num/"
+
+
+collections:
+    trainings:
+        output: true
+        permalink: "/trainings/:title/"
+    webinars:
+        output: true
+        permalink: "/webinars/:title/"    
+    jobs:
+        output: true
+        permalink: "/jobs/:title/"
+
+future: true
+        
+exclude: 
+    - _temp
+
+include:
+    - _pages
+
+sass:
+ style: compressed
+
+
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+
+ 
+
+authors:
+      Neependra:
+        display_name: Neependra
+        about: Founder and Principal Consultant
+        email: mailto:neependra@cloudyug.guru
+        facebook: https://www.facebook.com/neependra.khare 
+        linkedin: https://www.linkedin.com/in/neependra
+        twitter: https://twitter.com/neependra
+        avatar: /img/neependra-khare.jpg
+        
+      Shiju:
+        display_name: Shiju 
+        about: Principal Consultant
+        email: mailto:gophermonk@gmail.com 
+        facebook: https://www.facebook.com/shijuvar
+        linkedin: https://www.linkedin.com/in/shijuvar
+        twitter: https://twitter.com/shijucv
+        avatar: /img/Shiju-Varghese.png
+
+      Someonelse:
+        display_name: Someone Else 
+        about: Founder and Principal Consultant
+        email: mailto:neependra@cloudyug.guru
+        facebook: https://www.facebook.com/
+        twitter: https://twitter.com/
+        avatar: /img/neependra-khare.jpg
+        
+plugins: 
+    - jekyll-seo-tag
+    - jekyll-redirect-from
+    - jekyll-sitemap
+    - jekyll-paginate

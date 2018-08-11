@@ -1,0 +1,15 @@
+{% assign author = site.authors[page.author] %} 
+<div class="author">
+    <div class="author-body">
+           <div class="author-image" style="background-image: url({{site.baseurl}}{{author.avatar}});"></div>
+           <div class="author-about"> 
+           <h4>{{author.display_name}}</h4>
+<!--            <p><small>{{author.about}}</small></p> -->
+           <a href="{{author.linkedin}}"><i class="icon ion-social-linkedin-outline"></i> </a>
+           <a href="{{author.twitter}}"><i class="icon ion-social-twitter-outline"></i></a>
+           <a href="{{author.email}}"><i class="icon ion-ios-email-outline"></i></a>
+           <a href="{{author.facebook}}"><i class="icon ion-social-facebook-outline"></i> </a>
+           </div>
+    </div>
+   <!--  <div class="color-bars"><div class="cor colr-1"></div><div class="cor colr-2"></div><div class="cor colr-3"></div><div class="cor colr-4"></div></div> -->
+</div>

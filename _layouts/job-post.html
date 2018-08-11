@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+<div class="container page-container pb-80">
+    <div class="row">
+       <div class="col-md-3 sidebar">
+            
+                    <p><strong>Company:</strong> <a href="{{page.link}}" target="_blank" rel="nofollow">{{page.company}}</a></p>
+                    <p><strong>Location:</strong> {{page.location}}</p>
+                    <p><strong>Experience:</strong> {{page.experience}} yrs</p>
+                        
+                            
+                        
+                    {% include share-fixed.html %} 
+          
+           
+       </div>
+        <div class="col-md-8">
+            <main role="main">
+               <article>
+               <h1 class="post-title {% if page.title-center %} text-center {% endif %}">{{page.title}}</h1>
+               
+               <p> </p>
+
+                {{content}}
+                    
+                        <br/>
+              <div class="text-center">  
+            <a class="typeform-share button btn btn-primary btn-lg" href="https://cloudyuga.typeform.com/to/gyXPLF" data-mode="popup"  data-hide-headers=true data-hide-footer=true target="_blank">Apply </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+</div>
+                  
+                </article>
+            </main>
+           
+           
+      
+
+               
+<!--                
+               <p class="categories">
+               {% if post %}{% assign categories = post.categories %}{% else %}{% assign categories = page.categories %}{% endif %}{% for category in categories %}<a class="label label-default" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category | capitalize}}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                </p>
+                       -->        
+               
+                
+         <div class="share-buttons pt-50">
+                  <strong>Share: </strong> <!-- <i class="icon ion-ios-redo"></i> -->
+                   <a class="fb" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{site.baseurl}}{{ page.url }}" onclick="window.open(this.href, 'mywin',
+                'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
+                          <i class="icon ion-social-facebook"></i> 
+                        </a>
+
+                        <a class="tw" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{site.baseurl}}{{ page.url }}" onclick="window.open(this.href, 'mywin',
+                'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+                          <i class="icon ion-social-twitter"></i> 
+                        </a>
+
+                      <a class="li" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{site.baseurl}}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source=webjeda" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
+                       <i class="icon ion-social-linkedin"></i> 
+                        </a>
+                        <a class="em" href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{site.baseurl}}{{ page.url }}">
+                            <i class="icon ion-android-mail"></i> 
+                        </a> 
+               
+               </div>
+               
+               
+               
+               
+                <div class="pagination">
+                {% if page.previous.url %}
+                <a href="{{site.baseurl}}{{page.previous.url}}"><span class="pagination-item older active-link">Older</span></a>
+                {% else %}
+                <span class="pagination-item older">Older</span>
+                {% endif %}
+                {% if page.next.url %}
+                <a href="{{site.baseurl}}{{page.next.url}}"><span class="pagination-item newer active-link">Newer</span></a>
+                {% else %}
+                <span class="pagination-item newer">Newer</span>
+                {% endif %}
+                </div>  
+                
+                  
+                {% include disqus.html %}
+  
+        </div>
+    </div>
+</div>

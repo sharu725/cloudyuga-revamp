@@ -1,0 +1,43 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+    
+{% include head.html %}
+
+<body id="top" data-spy="scroll" data-target="#navigation" data-offset="100" data-gr-c-s-loaded="true">
+    
+    <div class="loader-backdrop" style="display: none;"><!-- Pre Loader -->
+        <div class="loader">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+            <span class="dot dot4"></span>
+        </div>
+    </div>
+    
+{% include header.html %}
+
+    {{content}}
+
+{% include footer.html %}
+
+<!--Start of Tawk.to Script-->
+<script defer type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/595e1c911dc79b329518cf42/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+{% include analytics.html %}
+
+</body>
+
+</html>

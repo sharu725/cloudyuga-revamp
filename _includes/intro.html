@@ -1,0 +1,55 @@
+    <!-- Hero Section Style 4 -->
+    <section class="hero-4" id="home" style="background-image: url({{site.baseurl}}/images/bg-pattern.png)">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <div class="hero-box ">
+                        <h1 class="hero-heading">Level-up To Be <span class="color1 thin">Cloud Native</span></h1>
+                        <p class="hero-text"> With our trainings and consulting offerings, we help companies and individuals to adopt cloud native practices.</p>
+                        <a href="{{site.baseurl}}/trainings/" class="btn btn-primary btn-lg">Know More</a> &nbsp;
+                    </div>
+                </div>
+                
+                {% if page.video-id %}
+                
+                <div class="col-md-6 mt-40">
+                   <iframe src="https://player.vimeo.com/video/{{page.video-id}}" class="video" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6 mt-40">
+                    <div class="hero-box">
+                        <ul class="features">
+                            <li>
+                                <div class="icon">
+                                    <i class="ion-ios-monitor-outline"></i>
+                                </div>
+                                <div class="features-body">
+                                    <h6 class="heading">Ultra HD Display</h6>
+                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="ion-ios-speedometer-outline"></i>
+                                </div>
+                                <div class="features-body">
+                                    <h6 class="heading">High Refresh Rate</h6>
+                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="ion-ios-color-filter-outline"></i>
+                                </div>
+                                <div class="features-body">
+                                    <h6 class="heading">See every Color</h6>
+                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="{{page.learn-more}}" class="btn btn-primary btn-lg">Learn More</a>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </section>

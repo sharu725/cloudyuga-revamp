@@ -20,18 +20,27 @@ body {
 .carousel-control,
 .item {
     border-radius: 4px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    -webkit-transition: -webkit-box-shadow .25s ease;
+    transition: -webkit-box-shadow .25s ease;
+    transition: box-shadow .25s ease;
+    transition: box-shadow .25s ease, -webkit-box-shadow .25s ease;
 }
 
 .caption {
-/*     height: 130px; */
-/*     word-wrap: break-word;
-    word-break: break-all; */
-    /* overflow: hidden; */
+    padding: 15px !important;
     p {
-        font-size: 18px;
+        color: #777;
+        font-size: $base-fs * 0.85;
+        
+        small {
+            color: #999;
+        }
     }
+    
     h4 {
-       font-size: 20px;
+       font-size: $base-fs;
        word-wrap: break-word;
     }
 }
@@ -71,9 +80,8 @@ footer {
     }
     .item {
         &:hover {
-                box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.03);
-        -webkit-box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.03);
-                transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+               -webkit-box-shadow: 0 2px 40px 0 rgba(153,155,168,0.3);
+                box-shadow: 0 2px 40px 0 rgba(153,155,168,0.3);
         }
     }
 }

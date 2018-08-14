@@ -4,7 +4,7 @@ layout: blog
 # Video-id is the if of the video from Vimeo. Remove the # to see video in place of slider. 
 ---
  
- 
+
 <div class="col-md-12">
 <div class="row carousel-holder">
 <div class="col-md-12">
@@ -54,6 +54,7 @@ layout: blog
         {% endif %}
     <div class="caption">
         <h4>{{post.title}}</h4>
+        <p><small>{{post.date | date: '%b %d, %Y'}}</small></p>
         {% if post.description %}
         <p>{{post.description | truncate: 160}}</p>
         {% else %}

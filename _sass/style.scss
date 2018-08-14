@@ -1351,3 +1351,33 @@ li.active>a:focus {
 .clearfix {
     clear: both;
 }
+.inline-block {
+    display: inline-block;
+}
+.about-social-links {
+    li {
+        a {
+            box-shadow: none;
+            &:hover {
+                box-shadow: none;
+                color: #000;
+            }
+        }
+    }
+}
+.border-blue {
+    box-shadow: none;
+    border: 1px solid $brand-color;
+}
+
+.map {
+    height: 360px;
+    width: 100%;
+    border: 2px solid #aaa;
+    
+    @include media-query($on-laptop) {
+        height: 240px;
+        margin-bottom: 10px;
+    }
+    
+}

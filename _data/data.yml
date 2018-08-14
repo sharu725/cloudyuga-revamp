@@ -67,9 +67,29 @@ testimonials:
 
 about:
     - name: Neependra Khare
-      title: Founder and Principal Consultant
-      image: /img/neependra-khare.png
+      title: Founder & Consultant
+      image: /img/neependra-khare.jpg
+      facebook: https://www.facebook.com/neependra.khare
+      twitter: https://twitter.com/neependra
+      linkedin: https://www.linkedin.com/in/neependra
+      github: 
+      website: 
       
-    - name: Shiju Varghese
-      title: Principal Consultant
-      image: /img/Shiju-Varghese.png
+    - name: Vishal Ghule
+      title: Software Engineer
+      image: /img/vishal-ghule.jpg
+      facebook:
+      twitter: https://twitter.com/theVishalGhule
+      linkedin: https://www.linkedin.com/in/vishal-ghule
+      github: https://github.com/vishalcloudyuga
+      website: 
+      
+    - name: Sumit Murari
+      title: Software Engineer
+      image: /img/sumit-murari.jpg
+      facebook:
+      twitter: https://twitter.com/theVishalGhule
+      linkedin: https://linkedin.com/in/murarisumit
+      github: https://github.com/murarisumit
+      website: https://sumit.murari.me/
+      

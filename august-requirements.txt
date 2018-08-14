@@ -43,11 +43,16 @@ Consulting > Data blocks + Calendly Book a slot
 // Add more people in About section
 
 Test your skill - Typeform
+
 Customer images
 	reliance jio
 	intuit
 	remove formcept
 	
+
+//Merge contact to about
+
+/Test Your Skills
 
 commad input output effect
 

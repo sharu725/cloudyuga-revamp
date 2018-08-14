@@ -1,0 +1,75 @@
+intro:
+    header: 
+        normal: Level-Up To Be 
+        highlighted: Cloud Native
+    sub-header: With our trainings and consulting offerings, we help companies and individuals to adopt cloud native practices.
+    button: 
+        text: Know More
+        link: /trainings/
+
+
+offerings:
+    - title: Trainings
+      description: We provide trainings on Docker, Kubernetes, DC/OS, Go Language etc.
+      icon: ion-code
+
+    - title: Consulting
+      description: "With our rich industry experience we'll help you adopt latest cloud and container technologies, so you can meet your business goals."
+      icon: ion-briefcase
+
+    - title: Building Case Studies
+      description: We can help you building case-studies, do product comparisons etc for cloud related products.
+      icon: ion-compose
+
+
+customers:
+    - title: HP
+      image: /img/hp-enterprise-s.png
+      
+    - title: EDB
+      image: /img/edb-s.png
+      
+    - title: Rakuten
+      image: /img/Rakuten-s.png
+      
+    - title: Cisco
+      image: /img/Cisco_logo.png
+      
+    - title: VMware
+      image: /img/logoGrey.png
+      
+    - title: Mecedes Benz
+      image: /img/Mercedes_benz-2.png
+      
+    - title: Reliance Jio
+      image: /img/reliance-jio.png
+      
+    - title: Intuit
+      image: /img/logo-intuit-preferred.png
+      
+      
+testimonials:
+    - name: Vishal Sinha
+      title: Senior Architect - DevOps @Ellucian
+      image: /images/site/Vishal.jpg
+      review: I have taken several courses and this is by far the most organized and informative. Thanks Neependra Khare for creating a wonderful/full practical (hands-on) course.
+      
+    - name: Partheeban Palanisamy
+      title: Technical Consultant - @HPE
+      image: /images/site/Partheeban.jpg
+      review: Neependra has excellent knowledge on Docker and Kubernetes, the sessions were excellent. I would definitely recommend his training sessions to others.
+      
+    - name: Ajeet S Raina
+      title: Docker Captain, {Code} Catalysts - Dell EMC R&D 
+      image: /images/site/Ajeet.jpg
+      review: Kudos to CY School for bringing self-paced learning platform for container enthusiasts to keep abreast of latest changes in the container space. My 100% recommendation for all developers & operations team to try & learn new stuffs coming out of CY Garage. Well done @neependra & @CloudYuga Team.
+
+
+about:
+    - name: Neependra Khare
+      title: Founder and Principal Consultant
+      image: /img/neependra-khare.png
+      
+    - name: Shiju Varghese
+      title: Principal Consultant
+      image: /img/Shiju-Varghese.png

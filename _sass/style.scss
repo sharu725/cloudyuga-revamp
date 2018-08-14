@@ -1340,3 +1340,14 @@ li.active>a:focus {
 .apply {
     color: $brand-color;
 }
+
+.about-us {
+    text-align: center;
+    h4 {
+        margin: 0;
+    }
+}
+
+.clearfix {
+    clear: both;
+}

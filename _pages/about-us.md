@@ -11,7 +11,7 @@ permalink: /about/
 
 <div class="pb-50"></div>
 
-<div class="row text-center pb-80">
+<!-- <div class="row text-center pb-80">
     <div class="col-md-12"><h2>Our Team</h2></div>
     <div class="col-md-6">
         <h3>Neependra Khare</h3>
@@ -23,6 +23,29 @@ permalink: /about/
          <p>Principal Consultant</p>
          <img style="display: inline-block;" width="100" class="img-circle" src="{{site.baseurl}}/img/Shiju-Varghese.png" alt="Shiju Varghese">
     </div>
+</div> -->
+
+<div class="about-us">    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="heading-box">
+                <h2>Our Team</h2>
+                <!-- <p class="sub-heading">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                             -->
+                </div>
+        </div>
+        {% for item in site.data.data.about %}
+        <div class="col-md-6">
+            <div class="icon-box-1">
+                <div class="icon">
+                    <img style="display: inline-block;" width="100" class="img-circle" src="{{site.baseurl}}{{item.image}}" alt="{{item.name}}">
+                </div>
+                <h4>{{item.name}}</h4>
+                <p class="title"><small>{{item.title}}</small></p>
+            </div>
+        </div>
+        {% endfor %}
+        
+
+    </div>
 </div>
-
-

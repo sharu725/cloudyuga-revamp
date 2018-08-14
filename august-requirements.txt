@@ -40,7 +40,7 @@ Check for phone
 
 Consulting > Data blocks + Calendly Book a slot
 
-Add more people in About section
+// Add more people in About section
 
 Test your skill - Typeform
 Customer images
@@ -54,3 +54,5 @@ commad input output effect
 https://samnewman.io/index.html
 
 
+Contact Us 
+Form and Map

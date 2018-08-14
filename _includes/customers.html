@@ -8,62 +8,15 @@
                         <p class="sub-heading">We have worked with some of the well knows companies.</p>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="logo-box">
-                        <img src="{{site.baseurl}}/img/hp-enterprise-s.png" alt="" title="HP">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="logo-box">
-                        <img src="{{site.baseurl}}/img/formcept-s.png" alt="" title="Formcept">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="logo-box">
-                        <img src="{{site.baseurl}}/img/edb-s.png" alt="" title="EDB">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="logo-box">
-                        <img src="{{site.baseurl}}/img/Rakuten-s.png" alt="" title="Rakuten">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="logo-box">
-                        <img src="{{site.baseurl}}/img/Cisco_logo.png" alt="" title="CISCO">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="logo-box">
-                        <img src="{{site.baseurl}}/img/logoGrey.png" alt="" title="VMware">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="logo-box">
-                        <img src="{{site.baseurl}}/img/Mercedes_benz-2.png" alt="" title="Mercedes Benz">
-                    </div>
-                </div>
+                {% for item in site.data.data.customers %}
                 
-      <!--           <div class="col-md-4 col-md-offset-4">
+                <div class="col-md-3{% if forloop.index == 5 %} clearfix{% endif %}">
                     <div class="logo-box">
-                        <img src="{{site.baseurl}}/img/Mercedes_benz-s.png" alt="" title="Mercedes Benz">
+                        <img src="{{site.baseurl}}{{item.image}}" alt="{{item.title}}" title="{{item.title}}">
                     </div>
-                </div> -->
-                    <!-- <div class="col-md-3">
-                        <div class="logo-box">
-                            <img src="/logo-3.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="logo-box">
-                            <img src="/logo-5.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="logo-box">
-                            <img src="/logo-7.jpg" alt="">
-                        </div>
-                    </div> -->
+  
+                </div>
+                {% endfor %}
             </div>
         </div>
     </section>

@@ -1,6 +1,6 @@
 <header class="">
        <!-- Navigation Bar-->
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default" role="navigation">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -9,27 +9,19 @@
                                 <i class="ion-ios-more-outline"></i>
                             </button>
                             <a class="navbar-brand" href="{{site.baseurl}}/">
-                                <img src="{{site.baseurl}}/img/Cloud-Yuga-Guru-Logo-small.png" alt="{{site.title}}">     <!-- Replace with your logo -->
+                                <img height="50" src="{{site.baseurl}}/img/cloudyuga-logo.svg" alt="{{site.title}}">     <!-- Replace with your logo -->
                             </a>
                         </div>
-                        <div class="collapse navbar-collapse navbar-right" id="navigation">
+                        <div class="collapse navbar-collapse navbar-right" id="navigation" data-hover="dropdown" data-animations="fadeInDown fadeInRight fadeInUp fadeInLeft">
                             <ul class="nav navbar-nav">  
 
-                               
-                                <!-- Menu -->
-                                <!-- <li class=""> 
-                                    <a href="{{site.baseurl}}/" class="scroll-link">Home</a>
-                                </li> -->
-                           <!--      <li>
-                                    <a href="{{site.baseurl}}/trainings/" class="scroll-link">Trainings</a>          
-                                </li> -->
     
-        <li class="dropdown dropdown-inline">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Trainings
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Trainings
             <span class="caret"></span></a>
             
   
-            <ul class="dropdown-menu" role="menu">
+            <ul class="dropdown-menu dropdownhover-bottom" role="menu">
               <!-- <li><a href="#">Action</a></li>
               <li><a href="#">Another action</a></li> -->
                 <li><a href="#">Corporate Training</a></li>

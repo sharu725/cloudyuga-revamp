@@ -92,4 +92,21 @@ about:
       linkedin: https://linkedin.com/in/murarisumit
       github: https://github.com/murarisumit
       website: https://sumit.murari.me/
+
+
+address:
+    - line: '#1746'
+    - line: '#1746'
+    - line: '#1746'
+    - line: '#1746'
+
+test:
+    - title: Kubernetes Basics
+      description: This test will assess your knowledge on basic Kubernetes.
+      image: test-your-skills.png # If no image > default superman image will be shown.
+      link: /quiz/kubernetes-101/
       
+    - title: Kubernetes Basics
+      description: This test will assess your knowledge on basic Kubernetes.
+      image: test-your-skills.png # If no image > default superman image will be shown.
+      link: /quiz/kubernetes-101/

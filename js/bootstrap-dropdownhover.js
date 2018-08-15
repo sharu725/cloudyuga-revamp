@@ -237,6 +237,7 @@
           $(this).removeData('bs.dropdownhover')
           if($(this).hasClass('dropdown-toggle'))
             $(this).parent('.dropdown').find('.dropdown').addBack().off('mouseenter.bs.dropdownhover mouseleave.bs.dropdownhover')
+
           else
             $(this).find('.dropdown').off('mouseenter.bs.dropdownhover mouseleave.bs.dropdownhover')
         })

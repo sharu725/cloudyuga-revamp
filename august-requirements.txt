@@ -1,6 +1,7 @@
-Integration - https://calendly.com/pages/features
-
 Geo Based Pricing  - Razr
+Price in INR for Indian location 
+Dollars for al other locations
+
 https://stackoverflow.com/questions/16823258/show-hide-content-if-user-is-from-us-with-jquery
 
 https://stackoverflow.com/questions/4937517/ip-to-location-using-javascript
@@ -34,30 +35,20 @@ $(document).ready(function () {
 
 //Dropdown Menu - Trainings > Online > Docker > Dates
 		                > Classroom > Kubernetes> Dates
-
 Check for phone
 
-
-Consulting > Data blocks + Calendly Book a slot
-
+// Consulting > Data blocks > Calendly Book a slot
 // Add more people in About section
-
-Test your skill - Typeform
-
-Customer images
-	reliance jio
-	intuit
-	remove formcept
-	
-
-//Merge contact to about
-
-/Test Your Skills
-
+// Test your skill - Typeform
+// Customer images >reliance jio + intuit + remove formcept
+// Merge contact to about
+// Test Your Skills
+//Contact Us 
+//Address and Map
+// Created favicon
+Create a new logo
 commad input output effect
 
 https://samnewman.io/index.html
 
 
-Contact Us 
-Form and Map

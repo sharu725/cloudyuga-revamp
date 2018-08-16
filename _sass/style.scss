@@ -1405,7 +1405,7 @@ li.active>a:focus {
 
 #typeform-quiz {
     
-    min-height: 600px;
+    min-height: 800px;
     
     @include media-query($on-laptop) {
             min-height: 400px;

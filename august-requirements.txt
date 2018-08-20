@@ -43,10 +43,23 @@ Check for phone
 // Customer images >reliance jio + intuit + remove formcept
 // Merge contact to about
 // Test Your Skills
-//Contact Us 
-//Address and Map
+// Contact Us 
+// Address and Map
 // Created favicon
-Create a new logo
+// Create a new logo
+
+Classroom
+	Basic Kubernetes
+	Advanced Kubernetes
+	Docker Workshop
+
+Online Instructor Led
+	Kubernetes Workshop
+	Docker Workshop
+Seld Paced 
+	Container Fundamentals
+	Containers for Dev & QA
+
 commad input output effect
 
 https://samnewman.io/index.html

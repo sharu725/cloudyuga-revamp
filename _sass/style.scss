@@ -1416,3 +1416,14 @@ li.active>a:focus {
     height: 700px;
 
 }
+
+.g-date {
+    padding: 0 5px;
+    color: limegreen;
+    font-size: $base-fs * 0.7;
+    border: 1px solid limegreen;
+}
+
+.train {
+    padding-left: 30px;
+}

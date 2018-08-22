@@ -1,0 +1,76 @@
+  {% if page.url contains '/trainings/' %}
+                      <hr>
+                      <h2><strong>Upcoming Workshops</strong></h2>
+                   <h3><strong>Classroom Training</strong></h3>
+                     <div class="train">
+                      {% if site.data.schedule.classroom.basic-kubernetes %}
+                         <h4><strong>Basic Kubernetes</strong></h4>
+                         <ul>
+                          {% for item in site.data.schedule.classroom.basic-kubernetes %}
+                          <li><a href="/trainings/basic-kubernetes/">{{item.date}}</a></li>
+                          {% endfor %}
+                          </ul>
+                      {% endif %}
+                      
+                      {% if site.data.schedule.classroom.advanced-kubernetes %}
+                         <h4><strong>Advanced Kubernetes</strong></h4>
+                         <ul>
+                          {% for item in site.data.schedule.classroom.advanced-kubernetes %}
+                          <li><a href="/trainings/advance-kubernetes/">{{item.date}}</a></li>
+                          {% endfor %}
+                          </ul>
+                      {% endif %}
+                      
+                      {% if site.data.schedule.classroom.docker-workshop %}
+                         <h4><strong>Docker Workshop</strong></h4>
+                         <ul>
+                          {% for item in site.data.schedule.classroom.docker-workshop %}
+                          <li><a href="/trainings/docker/">{{item.date}}</a></li>
+                          {% endfor %}
+                          </ul>
+                      {% endif %}
+                      </div>
+                      <h3><strong>Online Instructor Led Training</strong></h3>
+                        <div class="train">
+                         {% if site.data.schedule.online-instructor.docker-workshop %}
+                             <h4><strong>Kubernetes Workshop</strong></h4>
+                             <ul>
+                              {% for item in site.data.schedule.online-instructor.kubernetes-workshop %}
+                              <li><a href="/trainings/online-kubernetes/">{{item.date}}</a></li>
+                              {% endfor %}
+                              </ul>
+                          {% endif %}
+                          
+                         {% if site.data.schedule.online-instructor.docker-workshop %}
+                             <h4><strong>Docker Workshop</strong></h4>
+                             <ul>
+                              {% for item in site.data.schedule.online-instructor.docker-workshop %}
+                              <li><a href="/trainings/online-docker/">{{item.date}}</a></li>
+                              {% endfor %}
+                              </ul>
+                          {% endif %}
+                       </div>
+                          
+                   <h3><strong>Online Self Paced Training</strong></h3>
+                             
+                             <div class="train">
+                              {% if site.data.schedule.online-self.container-fundamentals %}
+                                 <h4><strong>Container Fundamentals</strong></h4>
+                                 <ul>
+                                  {% for item in site.data.schedule.online-self.container-fundamentals %}
+                                  <li><a href="/trainings/container_fundamentals/">{{item.date}}</a></li>
+                                  {% endfor %}
+                                  </ul>
+                              {% endif %}
+                              {% if site.data.schedule.online-self.container-for-dev %}
+                                 <h4><strong>Container Fundamentals</strong></h4>
+                                 <ul>
+                                  {% for item in site.data.schedule.online-self.container-for-dev %}
+                                  <li><a href="/trainings/container_for_dev_qa/">{{item.date}}</a></li>
+                                  {% endfor %}
+                                  </ul>
+                              {% endif %}
+                           </div>
+                      
+                {% endif %}
+                       

@@ -14,7 +14,8 @@ razor-pay:
       description: Sign up for Docker Workshop.
       amount: 3540000 
       currency: INR
-      usd: 550
+paypal:
+    amount: 550
 ---
 
 ![]({{site.baseurl}}/images/trainings/k8s.jpg)

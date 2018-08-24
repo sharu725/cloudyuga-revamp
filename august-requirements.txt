@@ -1,41 +1,9 @@
-Geo Based Pricing  - Razr
-Price in INR for Indian location 
-Dollars for al other locations
-
-https://stackoverflow.com/questions/16823258/show-hide-content-if-user-is-from-us-with-jquery
-
-https://stackoverflow.com/questions/4937517/ip-to-location-using-javascript
-
-https://ipstack.com/
-
-https://stackoverflow.com/questions/391979/how-to-get-clients-ip-address-using-javascript?noredirect=1&lq=1
-
-
-http://jsfiddle.net/rBL3D/79/
-
-$.get("http://ipinfo.io", function (response) {
-    $("#ip").html("IP: " + response.ip);
-    $("#address").html("Location: " + response.city + ", " + response.region + ", "+ response.count);
-    $("#details").html(JSON.stringify(response, null, 4));
-}, "jsonp");
-
-$(document).ready(function () {
-    $.getJSON("http://ip-api.com/json?callback=?", function (data) {
-        if (data.country == 'India') {
-        	console.log("Awesome");
-          alert("Awesome");
-        }
-        else {
-        	console.log("Not Cool");
-          alert("Not Awesome");
-        }
-    });
-});
-
-
+// Geo Based Pricing  - Razr
+// Price in INR for Indian location 
+// Paypal for al other locations
 //Dropdown Menu - Trainings > Online > Docker > Dates
-		                > Classroom > Kubernetes> Dates
-Check for phone
+		                > Classroom > Kubernetes> // Dates
+// Check for phone
 
 // Consulting > Data blocks > Calendly Book a slot
 // Add more people in About section
@@ -64,4 +32,10 @@ commad input output effect
 
 https://samnewman.io/index.html
 
+Consulting - 3 blocks
 
+Calendly optional
+Hourly consulting
+
+Blog and Test swap
+Logo add guru and decrease the size

@@ -1413,7 +1413,7 @@ li.active>a:focus {
 }
 .calendly-inline-widget {
     width: 100%;
-    height: 700px;
+    height: 500px;
 
 }
 
@@ -1426,4 +1426,10 @@ li.active>a:focus {
 
 .train {
     padding-left: 30px;
+}
+
+a.razorpay-payment-button {
+    &:hover {
+        color: white;
+    }        
 }

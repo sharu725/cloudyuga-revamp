@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+
+<div id="home" class="container page-container">
+        <div class="row pb-100">
+            <div class="col-md-12">
+                <h1 class="post-title">{{page.title}}</h1>
+                <!-- Calendly inline widget begin -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/{{page.calendly-shortcode}}" ></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+                <!-- Calendly inline widget end -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <main role="main">
+               <article>
+                  <div class="row">
+                      <div class="col-md-8 col-md-offset-2">
+                              {{content}}
+                       </div>
+                   </div>
+                </article>
+            </main>
+        </div>
+    </div>
+</div>
+    <!-- /.container -->

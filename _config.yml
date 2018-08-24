@@ -24,9 +24,9 @@ collections:
     webinars:
         output: true
         permalink: "/webinars/:title/"    
-    jobs:
+    consulting:
         output: true
-        permalink: "/jobs/:title/"
+        permalink: "/consulting/:title/"
 
 future: true
         

@@ -1,5 +1,6 @@
 ---
 layout: blog
+title: Blog
 # video-id: 222773086
 # Video-id is the if of the video from Vimeo. Remove the # to see video in place of slider. 
 ---

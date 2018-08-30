@@ -38,4 +38,4 @@ Calendly optional
 Hourly consulting
 
 Blog and Test swap
-Logo add guru and decrease the size
+// Logo add guru and decrease the size

@@ -1433,3 +1433,14 @@ a.razorpay-payment-button {
         color: white;
     }        
 }
+
+
+
+.navbar-brand {
+    img {
+        
+        @include media-query($on-laptop) {
+            height: 40px;
+        }
+    }
+}

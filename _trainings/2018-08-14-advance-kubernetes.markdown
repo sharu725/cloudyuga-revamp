@@ -23,9 +23,12 @@ paypal:
 
 ## Overview 
 In this course we will cover advance Kubernetes. We will first install Kubernetes from scratch and then dive into advance topics like RBAC, Kubernetes Networking, Advance Volume Managment, Health Checks, Ingress, Helm, Prometheus, Service Mesh etc. We will also cover CI/CD with Kubernetes.
- **Date**: 23rd and 24th August 
- **Venue** : Bangalore
- **Fee**: INR 30000 + GST 
+
+**Date**: 23rd and 24th August 
+
+**Venue** : Bangalore
+
+**Fee**: INR 30000 + GST 
  
 ### **About the Trainer - [Neependra Khare](https://twitter.com/neependra)** 
 - Founder and Principal Consultant at [CloudYuga](http://cloudyuga.guru/)
